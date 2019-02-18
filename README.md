@@ -1,3 +1,6 @@
+## Management System
+본 프로젝트는 React, Node 기초 학습을 목적으로 만들어진 프로젝트 입니다.
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
