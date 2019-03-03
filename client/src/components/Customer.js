@@ -2,6 +2,7 @@ import React from 'react';
 import TableRow from '@material-ui/core/TableRow';
 import TableCell from '@material-ui/core/TableCell';
 import common from './common';
+import CustomerDelete from './CustomerDelete';
 
 
 class Customer extends React.Component{ 
@@ -22,6 +23,7 @@ class Customer extends React.Component{
                 <TableCell>{birthday}</TableCell>
                 <TableCell>{gender}</TableCell>
                 <TableCell>{job}</TableCell>
+                <TableCell><CustomerDelete stateRefresh={this.props.stateRefresh} id={id}/></TableCell>
             </TableRow>
         )
     }
